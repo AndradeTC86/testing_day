@@ -1,0 +1,26 @@
+{
+  "name": "testing_day",
+  "version": "1.0.0",
+  "description": "Esse é um repositório criado como exercício do curso Desenvolvedor Full Stack Python da [EBAC](https://ebaconline.com.br/new/full-stack-python), desenvolvido para criar uma projeto de criação de uma landing page de um evento usando o Parcel.",
+  "scripts": {
+    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndradeTC86/testing_day.git"
+  },
+  "author": "thiago.andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndradeTC86/testing_day/issues"
+  },
+  "homepage": "https://github.com/AndradeTC86/testing_day#readme",
+  "dependencies": {
+    "parcel": "^2.14.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "sharp": "^0.33.5"
+  }
+}
