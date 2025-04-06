@@ -4,6 +4,7 @@
   "description": "Esse é um repositório criado como exercício do curso Desenvolvedor Full Stack Python da [EBAC](https://ebaconline.com.br/new/full-stack-python), desenvolvido para criar uma projeto de criação de uma landing page de um evento usando o Parcel.",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
